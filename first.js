@@ -30,14 +30,49 @@
 // }
 // myFn(a, b)
 
-const personOne = {
-    name: 'Bob',
-    age: 25
-}
-function increasePersonAge(person) {
-    personOne.age += 1
-    return person
+// const personOne = {
+//     name: 'Bob',
+//     age: 25
+// }
+// function increasePersonAge(person) {
+//     const updatedPerson = Object.assign({}, person)
+//     updatedPerson.age += 1
+//     return updatedPerson
+// }
+
+// const updatedPersonOne = increasePersonAge(personOne)
+// console.log(personOne.age)
+// console.log(updatedPersonOne.age) это мутация через копию - рекомендуется делать так
+
+// function anotherFunction() {
+// }
+
+// function fnWithCallback(callbackFunction) {
+//     callbackFunction ()
+// }
+
+// fnWithCallback(anotherFunction) 
+
+// function printMyName() {
+//     console.log('Bogdan')
+// }
+// console.log('Start')
+// setTimeout(printMyName, 2000) - вызов через определенное время
+
+
+let a 
+let b
+function myFn() {
+let a
+a = true
+b = 10
+console.log(b)
 }
 
-increasePersonAge(personOne)
-console.log(personOne)
+myFn()
+console.log(a)
+console.log(b)
+
+
+
+
