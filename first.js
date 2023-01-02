@@ -60,19 +60,24 @@
 // setTimeout(printMyName, 2000) - вызов через определенное время
 
 
-let a 
-let b
-function myFn() {
-let a
-a = true
-b = 10
-console.log(b)
-}
+// let a 
+// let b
+// function myFn() {
+// let a
+// a = true
+// b = 10
+// console.log(a)
+// }
 
-myFn()
-console.log(a)
-console.log(b)
-
-
+// myFn()
+// console.log(a)
+// console.log(b)
 
 
+// 'use strict' - проверка переменных
+
+let a, b
+a = 10
+b = a
+let c = a + b
+console.log(c)

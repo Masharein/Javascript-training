@@ -8,3 +8,8 @@
  *
  * 4. Вызовите функцию
  */
+
+function myFirstFunction() {
+    console.log('Masha')
+}
+myFirstFunction()

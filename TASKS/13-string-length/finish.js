@@ -4,3 +4,5 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+let a = 'maria'
+console.log(a.length)

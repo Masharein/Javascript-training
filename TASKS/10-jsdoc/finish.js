@@ -12,3 +12,14 @@
  *
  * 4. Вызовите функцию
  */
+
+/* "Возвращает разницу двух чисел"
+a - number
+b - number
+theDifference (a, b) - number
+theDifference (a, b) - разница чисел
+ */
+function theDifference(a,b) {
+    return a - b
+}
+console.log(theDifference(1236, 153))

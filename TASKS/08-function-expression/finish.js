@@ -10,3 +10,8 @@
  *
  * 5. Результат вызовов функции выведите в консоль
  */
+
+function myName(name) {
+    return "Привет, " + name
+}
+console.log(myName("Masha"))
